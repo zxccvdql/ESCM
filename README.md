@@ -39,7 +39,7 @@ Next, Modify the `DATA_ROOT` in the `config_cityscapes.py`, `config_nyuv2_3task.
 
 ## Train Baseline
 
-Please refer to file `train_baseline.ipynb` for creating the compression model of task selection using our method.
+Please refer to file `train_baseline.ipynb` for creating the base multi-task model in different datasets.
 
 ## Create Pruned Model
 Use our method to create the coefficient network of task selection. Please refer to file `create_pruning.ipynb`.
