@@ -1,6 +1,6 @@
-# Edge-Oriented Task Selection and Model Compression for Multi-Task Learning
+# CUT: Pruning Pre-Trained Multi-Task Models into Compact Models for Edge Devices
 
-This repository is for ESCM method.
+This repository is for CUT method.
 
 ## Introduction
 As terminals directly serving users, edge devices occupy a pivotal position in the provision of intelligent services. With the rapid advancement of multi-task learning technology, multi-task services that provide users with a high-quality experience have emerged as a significant direction for future development. However, the current multi-task models are generally bulky, and user task requirements are diverse. Directly deploying such models on edge devices is bound to increase the burden on the devices and lead to task redundancy. In view of this, this paper proposes an edge-oriented task selection and model compression method, aiming to provide edge devices with intelligent models that consume low energy and allow task selection based on user needs. Specifically, this paper first dismantles each task in the basic multi-task model, then selects corresponding tasks according to user requirements, and ranks the importance of each task model's parameters using a data-driven approach. Finally, a parameter decision mechanism is employed to fuse shared parameters among tasks, resulting in a new, compressed intelligent model that only retains the tasks required by the user. Through experimental validation on three public image datasets, the method proposed in this paper demonstrates remarkable efficiency.
